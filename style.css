@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: Inter;
+}
+a {
+  color: rgb(43, 109, 250);
+  text-decoration: underline;
+}
+h1 {
+  font-weight: 600;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.g2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  width: 100%;
+}
+
+#root > div {
+  column-count: 3;
+  column-gap: 15px;
+  column-fill: auto;
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  #root > div {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #root > div {
+    column-count: 1;
+  }
+}
+#root > div > * {
+  margin-bottom: 10px;
+}
+.section {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  width: 600px;
+}
+.section h2 {
+  font-weight: 600;
+  font-size: 36px;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.section .inner > * {
+  padding: 6px;
+}
+.section .inner {
+  width: 100%;
+}
+.section p {
+  font-size: 16px;
+  line-height: 18px;
+  word-break: break-all;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section .line:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.section .one-column:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.section .one-column {
+  padding: 6px 0px;
+}
+.section .one-column .level1 {
+}
+.section .one-column .level2 {
+  padding-left: 10px;
+}
+span {
+  transform: scale(1.2);
+  padding: 4px;
+}
+
+table th {
+  padding: 6px;
+  min-width: 60px;
+  font-size: 16px;
+}
+table tr {
+  padding: 6px 0px;
+  height: 36px;
+}
+table tr td {
+  text-align: center;
+}
+
+/* CLASSES */
+
+.spans-black span {
+  background-color: rgba(0,0,0,0.08);
+}
+.spans-white span {
+  background-color: rgba(255,255,255,0.3);
+}
+.text-white, .text-white h2, .text-white td, .text-white th {
+  color: #fff;
+}
+.text-black, .text-black h2, .text-black td, .text-black th {
+  color: #0A0A0A;
+}
+
+
+/* THEMES */
+
+body.boring .section {
+  border-radius: 6px;
+  border: 2px solid #666;
+}
+pre {
+  background: rgba(0,0,0,0.03);
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  white-space: break-spaces;
+}
+.buttons {
+  margin-bottom: 10px;
+}
+body button {
+  background: linear-gradient(30deg, rgb(215, 193, 250), rgb(188, 242, 255));
+  border: 1px solid rgb(78, 81, 253);
+  border-radius: 3px;
+  padding: 6px 8px;
+  font-weight: 500;
+}
+
+body.boring .inner, body.boring .section {
+  background: #fff !important;
+}
+body.boring h2 {
+  text-decoration: underline;
+}
+body.boring button {
+  background: #fff;
+  color: #111;
+  border: 1px solid #111;
+}
+
+body.matrix {
+  background: #111;
+  color: rgb(162, 255, 134);
+}
+body.matrix p, body.matrix h1, body.matrix h2, body.matrix pre, body.matrix td {
+  color: rgb(162, 255, 134);
+}
+body.matrix pre {
+  background: rgba(162, 255, 134, 0.04);
+}
+body.matrix span {
+  background: rgba(162, 255, 134, 0.1);
+}
+body.matrix .section {
+  border-radius: 12px;
+  border: 2px solid rgb(162, 255, 134);
+}
+body.matrix .section {
+  background: rgba(255,255,255,0.02) !important;
+}
+body.matrix h2 {
+  text-decoration: underline;
+}
+body.matrix button {
+  background: #111;
+  color: rgb(162, 255, 134);
+  border: 1px solid rgb(162, 255, 134);
+}
