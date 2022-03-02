@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "232,100,255",
   classes: "text-black",
   title: "Maps",
@@ -16,3 +14,5 @@ export default {
     ["<pre>map.size()</pre>", "2"],
   ]
 }
+
+export default a;

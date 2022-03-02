@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "131,255,222",
   classes: "text-black",
   title: "Sends and Receives",
@@ -15,3 +13,5 @@ export default {
     ["<pre>x!(P)</pre>", "Peek at y on chan"],
   ]
 }
+
+export default a;

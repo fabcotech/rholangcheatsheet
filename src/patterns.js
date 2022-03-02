@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "222, 82, 31",
   classes: "spans-black text-black",
   title: "Patterns",
@@ -25,3 +23,5 @@ export default {
     ]
   }
 }
+
+export default a;

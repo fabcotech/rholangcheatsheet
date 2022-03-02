@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "222,90,255",
   classes: "text-black",
   title: "Sets",
@@ -13,3 +11,5 @@ export default {
     ["<pre>*Sets have no order or duplicates</pre>", ""],
   ]
 }
+
+export default a;

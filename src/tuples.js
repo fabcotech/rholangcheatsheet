@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "202,96,245",
   classes: "text-black",
   title: "Tuples",
@@ -9,3 +7,5 @@ export default {
     ["<pre>tuple.nth(2)</pre>", "Nil"],
   ]
 }
+
+export default a;

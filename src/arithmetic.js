@@ -1,6 +1,6 @@
 
 
-export default {
+const a = {
   bgColor: "249, 162, 142",
   classes: "spans-black text-black",
   title: "Arithmetic",
@@ -30,3 +30,4 @@ export default {
     </div>
   `,
 }
+export default a;

@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+#___gatsby {
   font-family: Inter;
+  padding: 10px;
 }
 a {
   color: rgb(43, 109, 250);
   text-decoration: underline;
+  display: inline;
+  padding-left: 20px;
 }
 h1 {
   font-weight: 600;
   font-size: 56px;
-  margin-bottom: 20px;
+  display: inline;
 }
 .g2 {
   display: grid;
@@ -19,29 +22,31 @@ h1 {
   width: 100%;
 }
 
-#root > div {
+#___gatsby > div {
   column-count: 3;
-  column-gap: 15px;
+  column-gap: 10px;
   column-fill: auto;
 }
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-  #root > div {
+  #___gatsby > div {
     column-count: 2;
   }
 }
 @media screen and (max-width: 1199px) {
-  #root > div {
+  #___gatsby > div {
     column-count: 1;
   }
 }
-#root > div > * {
+#___gatsby > div > * {
   margin-bottom: 10px;
+}
+#___gatsby > div > .section {
+  border-radius: 6px;
 }
 .section {
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
-  border-radius: 4px;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -133,6 +138,7 @@ pre {
   white-space: break-spaces;
 }
 .buttons {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 body button {

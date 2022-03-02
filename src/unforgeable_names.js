@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "131, 220, 255",
   classes: "text-black",
   title: "Unforgeable Names",
@@ -9,3 +7,5 @@ export default {
     ["new print(`rho:io:stdout`)", "Use system powerbox"],
   ]
 }
+
+export default a;

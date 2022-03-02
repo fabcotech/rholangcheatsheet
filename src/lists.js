@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "212,110,255",
   classes: "text-black",
   title: "Lists",
@@ -11,3 +9,5 @@ export default {
     ["<pre>list.slice(1, 3)</pre>", "[2, Nil]"],
   ]
 }
+
+export default a;

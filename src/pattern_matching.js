@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "210, 210, 130",
   classes: "spans-white text-black",
   title: "Pattern Matching",
@@ -27,3 +25,5 @@ export default {
     ]
   }
 }
+
+export default a;

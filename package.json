@@ -1,18 +1,26 @@
 {
   "name": "rholangcheatsheet",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rholang cheat sheet",
   "main": "index.js",
   "scripts": {
-    "build": "npx parcel build src/index.js --public-url . --target browser"
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public b main"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.5",
-    "@babel/preset-react": "^7.16.7",
-    "parcel-bundler": "^1.9.4",
-    "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "gatsby": "next",
+    "gh-pages": "^3.2.3",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "dependencies": {
+    "gatsby-plugin-postcss": "^5.9.0",
+    "gatsby-plugin-react-helmet": "latest",
+    "postcss": "^8.4.7"
   }
 }

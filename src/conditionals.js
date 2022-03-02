@@ -1,6 +1,5 @@
 
-
-export default {
+const a = {
   bgColor: "90, 90, 90",
   classes: "spans-white text-white",
   title: "Conditionals",
@@ -9,3 +8,5 @@ export default {
     "<span>else { Q }</span> (optional) run process Q if x is <span>false</span>": [],
   }
 }
+
+export default a;

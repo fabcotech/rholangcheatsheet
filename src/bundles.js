@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "184, 255, 129",
   classes: "spans-black text-black",
   title: "Bundles",
@@ -41,3 +39,4 @@ export default {
     </div>
   `,
 }
+export default a;

@@ -1,6 +1,4 @@
-
-
-export default {
+const a = {
   bgColor: "222,90,255",
   classes: "text-black",
   title: "Strings",
@@ -11,3 +9,5 @@ export default {
     ["<pre>“A402B6”.hexToBytes( )</pre>", "interpret hex string"],
   ]
 }
+
+export default a;
