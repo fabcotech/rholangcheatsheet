@@ -21,28 +21,36 @@ h1 {
   grid-template-rows: 100%;
   width: 100%;
 }
+.fc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-#___gatsby > div {
+#___gatsby > div > div > .sections {
   column-count: 3;
   column-gap: 10px;
   column-fill: auto;
 }
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-  #___gatsby > div {
+  #___gatsby > div > div > .sections {
     column-count: 2;
   }
 }
 @media screen and (max-width: 1199px) {
-  #___gatsby > div {
+  #___gatsby > div > div > .sections {
     column-count: 1;
   }
 }
-#___gatsby > div > * {
+#___gatsby > div > div > .sections > * {
   margin-bottom: 10px;
 }
-#___gatsby > div > .section {
+#___gatsby > div > div > .sections > .section {
   border-radius: 6px;
 }
+
+
+
 .section {
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
@@ -72,7 +80,7 @@ h1 {
   font-size: 16px;
   line-height: 18px;
   word-break: break-all;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 10px;
   margin-bottom: 10px;
 }
