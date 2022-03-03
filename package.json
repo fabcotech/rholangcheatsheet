@@ -7,8 +7,8 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public b master -r https://$GH_TOKEN@github.com/lirantal/dockly.git"
+    "serve": "gatsby serve --prefix-paths",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "author": "",
   "license": "ISC",
