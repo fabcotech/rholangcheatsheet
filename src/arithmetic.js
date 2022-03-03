@@ -1,5 +1,3 @@
-
-
 const a = {
   bgColor: "249, 162, 142",
   classes: "spans-black text-black",

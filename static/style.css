@@ -26,6 +26,11 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.fcr {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 #___gatsby > div > div > .sections {
   column-count: 3;

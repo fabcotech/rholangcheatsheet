@@ -29,8 +29,8 @@ export class SectionComponent extends React.Component {
           {
             this.props.lines.map(l => {
               return <div key={l[0]} className="g2 line">
-                <p dangerouslySetInnerHTML={{ __html: l[0] }}></p>
-                <p>{l[1]}</p>
+                <div key={1} className="fcr" dangerouslySetInnerHTML={{ __html: l[0] }}></div>
+                <p key={2}>{l[1]}</p>
               </div>
             })
           }

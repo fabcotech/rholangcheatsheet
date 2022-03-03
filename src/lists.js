@@ -3,10 +3,10 @@ const a = {
   classes: "text-black",
   title: "Lists",
   lines: [
-    ["<pre>[1, 2, Nil, “Hi”]</pre>", "output"],
-    ["<pre>list.nth(2)</pre>", "Nil"],
-    ["<pre>list.length( )</pre>", "4"],
-    ["<pre>list.slice(1, 3)</pre>", "[2, Nil]"],
+    ["<div><pre>[1, 2, Nil, “Hi”]</pre></div>", "output"],
+    ["<div><pre>list.nth(2)</pre></div>", "Nil"],
+    ["<div><pre>list.length( )</pre></div>", "4"],
+    ["<div><pre>list.slice(1, 3)</pre></div>", "[2, Nil]"],
   ]
 }
 

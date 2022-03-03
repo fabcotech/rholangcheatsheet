@@ -33,6 +33,16 @@ class AppComponent extends React.Component {
         <link rel="icon" type="image/png" sizes="16x16" href={withPrefix(`/favicon.png`)} />
         <link rel="stylesheet" href={withPrefix(`/reset.css`)} />
         <link rel="stylesheet" href={withPrefix(`/style.css`)} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@rchain_coop" />
+        <meta name="twitter:creator" content="@rchain_coop" />
+        <meta name="og:image:height" content="565" />
+        <meta name="og:image:width" content="1080" />
+        <meta name="og:image" content="https://fabcotech.github.io/rholangcheatsheet/cheatsheet.jpg" />
+        <meta name="og:url" content="https://fabcotech.github.io/rholangcheatsheet/" />
+        <meta name="og:title" content="Rholang Cheat Sheet" />
+        <meta name="og:description" content="Rholang Cheat Sheet" />
+        <meta name="description" content="Rholang Cheat Sheet" />
       </Helmet>
       <h1>Rholang cheatsheet</h1>
       <a href="https://rchain.coop">rchain.coop</a>

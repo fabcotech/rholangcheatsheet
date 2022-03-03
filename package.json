@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve --prefix-paths",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
+    "deploy": "rm -rf public/ && gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "author": "",
   "license": "ISC",
