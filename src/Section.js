@@ -28,7 +28,7 @@ export class SectionComponent extends React.Component {
         <div className={`${this.props.classes} inner`}>
           {
             this.props.lines.map(l => {
-              return <div className="g2 line">
+              return <div key={l[0]} className="g2 line">
                 <p dangerouslySetInnerHTML={{ __html: l[0] }}></p>
                 <p dangerouslySetInnerHTML={{ __html: l[1] }}></p>
               </div>
@@ -52,7 +52,7 @@ export class SectionComponent extends React.Component {
                 <p className="level1" dangerouslySetInnerHTML={{ __html: l}} ></p>
                 {
                   this.props.sections[l].map(li => {
-                    return <p className="level2" dangerouslySetInnerHTML={{ __html: li}}></p>
+                    return <p key={li} className="level2" dangerouslySetInnerHTML={{ __html: li}}></p>
                   })
                 }
               </div>
