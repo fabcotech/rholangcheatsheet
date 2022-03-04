@@ -1,5 +1,5 @@
 const a = {
-  bgColor: "131,255,222",
+  bgColor: "230,230,230",
   classes: "text-black",
   title: "Power Boxes",
   lines: [

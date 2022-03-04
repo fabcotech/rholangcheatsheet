@@ -20,6 +20,7 @@ h1 {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
   width: 100%;
+  box-sizing: border-box;
 }
 .fc {
   display: flex;
@@ -148,7 +149,9 @@ pre {
   display: flex;
   align-items: center;
   padding: 3px;
+  max-width: 100%;
   white-space: break-spaces;
+  word-break: break-all;
 }
 .buttons {
   margin-top: 10px;

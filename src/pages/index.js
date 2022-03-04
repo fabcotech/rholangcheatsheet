@@ -17,6 +17,7 @@ import tuples from '../tuples';
 import sets from '../sets';
 import maps from '../maps';
 import any from '../any';
+import powerBoxes from '../power_boxes';
 
 class AppComponent extends React.Component {
 
@@ -62,6 +63,7 @@ class AppComponent extends React.Component {
           <SectionComponent {...patterns} ></SectionComponent>
         </SectionComponent>
         <SectionComponent {...bundles} ></SectionComponent>
+        <SectionComponent {...powerBoxes} ></SectionComponent>
         <SectionComponent title="Data Structures" lines={[]} bgColor="222,90,255" classes="" >
           <SectionComponent {...strings} ></SectionComponent>
           <SectionComponent {...lists} ></SectionComponent>
