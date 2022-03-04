@@ -8,7 +8,7 @@ const a = {
     ["<pre>for (y <- chan){ P }</pre>", "Receive name y on chan"],
     ["<pre>for (@Q <- chan){ P }</pre>", "Receive Process Q (see pattern matching)"],
     ["<pre>for (x <- chan1; y <- chan2){ P }</pre>", "Receive x and y simultaneously"],
-    ["<pre>for (y <= chan){ P }", "Persistent receive"],
+    ["<pre>for (y <= chan){ P }</pre>", "Persistent receive"],
     ["<pre>contract chan(y) = { P }</pre>", "Alternate persistent receive"],
     ["<pre>for (y <<- chan) { P }</pre>", "Peek at y on chan"],
   ]
