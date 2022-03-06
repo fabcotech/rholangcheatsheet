@@ -50,7 +50,11 @@ class AppComponent extends React.Component {
       <div class="buttons">
         <span>Color theme : </span>
         <button onClick={() => this.changeTheme('disco')} type="button" class="button-disco">disco</button>
+        &nbsp;
+        <button onClick={() => this.changeTheme('rchain')} type="button" class="button-rchain">RChain</button>
+        &nbsp;
         <button onClick={() => this.changeTheme('boring')} type="button" class="button-boring">boring</button>
+        &nbsp;
         <button onClick={() => this.changeTheme('matrix')} type="button" class="button-matrix">matrix</button>
       </div>
       <div className="sections">
