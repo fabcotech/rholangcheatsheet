@@ -81,6 +81,7 @@ h1 {
 }
 .section .inner {
   width: 100%;
+  box-sizing: border-box;
 }
 .section p {
   font-size: 16px;
@@ -164,6 +165,10 @@ body button {
   padding: 6px 8px;
   font-weight: 500;
 }
+body button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
 
 body.boring .inner, body.boring .section {
   background: #fff !important;
@@ -204,4 +209,27 @@ body.matrix button {
   background: #111;
   color: rgb(162, 255, 134);
   border: 1px solid rgb(162, 255, 134);
+}
+
+
+body.rchain h1, body.rchain a {
+  color: #fff;
+}
+body.rchain .buttons {
+  color: #fff;
+}
+body.rchain {
+  background: rgb(136, 3, 3);
+}
+body.rchain .inner, body.rchain .section {
+  background: rgb(255, 233, 233) !important;
+  border: 0px solid rgb(136, 3, 3);
+}
+body.rchain h2 {
+  text-decoration: underline;
+}
+body.rchain button {
+  background: #fff;
+  color: rgb(136, 3, 3);
+  border: 1px solid rgb(136, 3, 3);
 }
