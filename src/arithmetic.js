@@ -8,11 +8,11 @@ const a = {
     <table>
       <thead>
         <tr>
-          <th>addition</th>
-          <th>substraction</th>
-          <th>division</th>
-          <th>multiplication</th>
-          <th>mod coming soon</th>
+          <th>Addition</th>
+          <th>Substraction</th>
+          <th>Division</th>
+          <th>Multiplication</th>
+          <th>Modulo</th>
         </tr>
       </thead>
       <tbody>

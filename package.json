@@ -1,6 +1,6 @@
 {
   "name": "rholangcheatsheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rholang cheat sheet",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,11 @@
     "react-dom": "latest"
   },
   "dependencies": {
+    "gatsby-plugin-markdown-pages": "^1.0.3",
     "gatsby-plugin-postcss": "^5.9.0",
     "gatsby-plugin-react-helmet": "^5.9.0",
+    "gatsby-source-filesystem": "^4.9.1",
+    "gatsby-transformer-remark": "^5.9.1",
     "postcss": "^8.4.7"
   }
 }
